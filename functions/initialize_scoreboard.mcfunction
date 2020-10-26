@@ -1,1 +1,2 @@
 scoreboard objectives add in_safe_zone dummy
+scoreboard objectives add in_forbidden_zone dummy

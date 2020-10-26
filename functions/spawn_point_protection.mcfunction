@@ -1,3 +1,7 @@
-kill @e[r=30,type=!player]
-execute @a[scores={in_safe_zone=..0},r=10] ~ ~ ~ function enter_safe_zone
-execute @a[scores={in_safe_zone=1..},r=15,rm=11] ~ ~ ~ function exit_safe_zone
+kill @e[r=500,type=!player]
+
+execute @a[scores={in_safe_zone=..0},r=500] ~ ~ ~ function zone_management/enter_safe_zone
+execute @a[scores={in_safe_zone=1..},r=510,rm=501] ~ ~ ~ function zone_management/exit_safe_zone
+
+execute @a[scores={in_forbidden_zone=..0},r=5000] ~ ~ ~ function zone_management/enter_forbidden_zone
+execute @a[scores={in_forbidden_zone=1..},r=5010,rm=5001] ~ ~ ~ function zone_management/exit_forbidden_zone
