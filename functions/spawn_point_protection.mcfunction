@@ -1,4 +1,4 @@
-kill @e[r=500,type=!player]
+kill @e[r=500,type=!player,type=!npc]
 
 execute @a[scores={safe_zone=..0},r=500] ~ ~ ~ function zone_management/enter_safe_zone
 execute @a[scores={safe_zone=1..},r=510,rm=501] ~ ~ ~ function zone_management/exit_safe_zone
