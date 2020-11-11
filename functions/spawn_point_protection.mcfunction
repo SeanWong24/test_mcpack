@@ -5,3 +5,6 @@ execute @a[scores={safe_zone=1..},r=510,rm=501] ~ ~ ~ function zone_management/e
 
 execute @a[scores={forbidden_zone=..0},r=5000] ~ ~ ~ function zone_management/enter_forbidden_zone
 execute @a[scores={forbidden_zone=1..},r=5010,rm=5001] ~ ~ ~ function zone_management/exit_forbidden_zone
+
+execute @a[scores={forbidden_zone=..0},m=a] ~ ~ ~ gamemode s @s[m=!c]
+execute @a[scores={forbidden_zone=1..},m=s] ~ ~ ~ gamemode a @s[m=!c]
