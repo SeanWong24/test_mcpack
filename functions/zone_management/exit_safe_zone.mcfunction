@@ -1,2 +1,2 @@
 title @s title Exiting Forbidden Zone
-scoreboard players set @s in_safe_zone 0
+scoreboard players set @s safe_zone 0

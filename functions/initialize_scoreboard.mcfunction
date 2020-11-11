@@ -1,2 +1,2 @@
-scoreboard objectives add in_safe_zone dummy
-scoreboard objectives add in_forbidden_zone dummy
+scoreboard objectives add safe_zone dummy "In Safe Zone"
+scoreboard objectives add forbidden_zone dummy "In Forbidden Zone"
